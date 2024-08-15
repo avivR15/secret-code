@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>SecretCode</title>
+</head>
+<body>
+    <h1>Welcome to Secret Code!</h1>
+
+    <button class="buttonReset" onclick="resetGame()"><h3>Reset</h3><h3>game</h3></button>
+    
+    <h4><p><strong>Select a color here:</strong></p></h4>
+    <div class="btn-group">
+    <button id="btn-red" draggable="true" ondrag="setColor(this.id)"><h2>red</h2></button>
+    <button id="btn-yellow" draggable="true" ondrag="setColor(this.id)"><h2>yellow</h2></button>
+    <button id="btn-green" draggable="true" ondrag="setColor(this.id)"><h2>green</h2></button>
+    <button id="btn-orange" draggable="true" ondrag="setColor(this.id)"><h2>orange</h2></button>
+    <button id="btn-pink" draggable="true" ondrag="setColor(this.id)"><h2>pink</h2></button>
+    <button id="btn-purple" draggable="true" ondrag="setColor(this.id)"><h2>purple</h2></button>
+    <button id="btn-blue" draggable="true" ondrag="setColor(this.id)"><h2>blue</h2></button>
+    <button id="btn-white" draggable="true" ondrag="setColor(this.id)"><h2>white</h2></button>
+    </div>
+
+
+
+    <button class="buttonEnter" onclick="enterClicked()"><h3>Enter</h3></button>
+
+    <div class="row">
+        <div id="answer1-1" class="answer"></div>
+        <div id="answer1-2" class="answer"></div>
+        <div id="answer1-3" class="answer"></div>
+        <div id="answer1-4" class="answer"></div>
+        <h4 class="rowNumber">1</h4>
+
+        <button id="button1-1" class="button1"></button>
+        <button id="button1-2" class="button1"></button>
+        <button id="button1-3" class="button1"></button>
+        <button id="button1-4" class="button1"></button>
+    </div>
+        
+    <div class="row">
+        <div id="answer2-1" class="answer"></div>
+        <div id="answer2-2" class="answer"></div>
+        <div id="answer2-3" class="answer"></div>
+        <div id="answer2-4" class="answer"></div>
+        <h4 class="rowNumber">2</h4>
+
+        <button id="button2-1" class="button1"></button>
+        <button id="button2-2" class="button1"></button>
+        <button id="button2-3" class="button1"></button>
+        <button id="button2-4" class="button1"></button>
+    </div>
+        
+    <div class="row">
+        <div id="answer3-1" class="answer"></div>
+        <div id="answer3-2" class="answer"></div>
+        <div id="answer3-3" class="answer"></div>
+        <div id="answer3-4" class="answer"></div>
+        <h4 class="rowNumber">3</h4>
+
+        <button id="button3-1" class="button1"></button>
+        <button id="button3-2" class="button1"></button>
+        <button id="button3-3" class="button1"></button>
+        <button id="button3-4" class="button1"></button>
+    </div>
+        
+    <div class="row">
+        <div id="answer4-1" class="answer"></div>
+        <div id="answer4-2" class="answer"></div>
+        <div id="answer4-3" class="answer"></div>
+        <div id="answer4-4" class="answer"></div>
+        <h4 class="rowNumber">4</h4>
+
+        <button id="button4-1" class="button1"></button>
+        <button id="button4-2" class="button1"></button>
+        <button id="button4-3" class="button1"></button>
+        <button id="button4-4" class="button1"></button>
+    </div>
+        
+    <div class="row">
+        <div id="answer5-1" class="answer"></div>
+        <div id="answer5-2" class="answer"></div>
+        <div id="answer5-3" class="answer"></div>
+        <div id="answer5-4" class="answer"></div>
+        <h4 class="rowNumber">5</h4>
+
+        <button id="button5-1" class="button1"></button>
+        <button id="button5-2" class="button1"></button>
+        <button id="button5-3" class="button1"></button>
+        <button id="button5-4" class="button1"></button>
+    </div>
+        
+    <div class="row">
+        <div id="answer6-1" class="answer"></div>
+        <div id="answer6-2" class="answer"></div>
+        <div id="answer6-3" class="answer"></div>
+        <div id="answer6-4" class="answer"></div>
+        <h4 class="rowNumber">6</h4>
+
+        <button id="button6-1" class="button1"></button>
+        <button id="button6-2" class="button1"></button>
+        <button id="button6-3" class="button1"></button>
+        <button id="button6-4" class="button1"></button>
+    </div>
+        
+    <div class="row">
+        <div id="answer7-1" class="answer"></div>
+        <div id="answer7-2" class="answer"></div>
+        <div id="answer7-3" class="answer"></div>
+        <div id="answer7-4" class="answer"></div>
+        <h4 class="rowNumber">7</h4>
+
+        <button id="button7-1" class="button1"></button>
+        <button id="button7-2" class="button1"></button>
+        <button id="button7-3" class="button1"></button>
+        <button id="button7-4" class="button1"></button>
+    </div>
+        
+    <div class="row">
+        <div id="answer8-1" class="answer"></div>
+        <div id="answer8-2" class="answer"></div>
+        <div id="answer8-3" class="answer"></div>
+        <div id="answer8-4" class="answer"></div>
+        <h4 class="rowNumber">8</h4>
+
+        <button id="button8-1" class="button1"></button>
+        <button id="button8-2" class="button1"></button>
+        <button id="button8-3" class="button1"></button>
+        <button id="button8-4" class="button1"></button>
+    </div>
+
+    <div class="row">
+        <div id="answer9-1" class="answer"></div>
+        <div id="answer9-2" class="answer"></div>
+        <div id="answer9-3" class="answer"></div>
+        <div id="answer9-4" class="answer"></div>
+        <h4 class="rowNumber">9</h4>
+
+        <button id="button9-1" class="button1"></button>
+        <button id="button9-2" class="button1"></button>
+        <button id="button9-3" class="button1"></button>
+        <button id="button9-4" class="button1"></button>
+    </div>
+
+    <div class="row">
+        <div id="answer10-1" class="answer"></div>
+        <div id="answer10-2" class="answer"></div>
+        <div id="answer10-3" class="answer"></div>
+        <div id="answer10-4" class="answer"></div>
+        <h4 class="rowNumber10">10</h4>
+
+        <button id="button10-1" class="button1"></button>
+        <button id="button10-2" class="button1"></button>
+        <button id="button10-3" class="button1"></button>
+        <button id="button10-4" class="button1"></button>
+    </div>
+    
+
+
+    <div class="code">
+        <h4 class="rowNumber">the code is:</h4>
+        <div id="codeColor1" class="button1"><h5 id="TEXT1" >?</h5></div>
+        <div id="codeColor2" class="button1"><h5 id="TEXT2" >?</h5></div>
+        <div id="codeColor3" class="button1"><h5 id="TEXT3" >?</h5></div>
+        <div id="codeColor4" class="button1"><h5 id="TEXT4" >?</h5></div>
+    </div>
+    
+    
+
+        
+<script src="index.js"></script>
+
+</body>
+</html>

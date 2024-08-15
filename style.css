@@ -1,0 +1,262 @@
+body {
+    background-color: lightblue;
+}
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    background-color: lightblue;
+}
+h2 {
+    font-size: 10px;
+    text-align: center;
+}
+h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+h4 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+h5 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+
+
+.btn-group {
+    margin-top: -50px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: -86px;
+    justify-content: center;
+    margin-right: 120px;
+    margin-top: -40px;
+}
+.rowNumber {
+    margin-left: 100px;
+    margin-right: 25px;
+}
+.rowNumber10 {
+    margin-left: 95px;
+    margin-top: 40px;
+    margin-right:10px;
+}
+
+
+
+.code {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 125px;
+}
+
+
+
+.button1 {
+    text-align: center;
+    color: black;
+    background-color: rgb(200, 200, 200);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    margin-top: 40px;
+}
+.button1.red {
+    background-color: red;
+}
+.button1.yellow {
+    background-color: yellow;
+}
+.button1.green {
+    background-color: green;
+}
+.button1.orange {
+    background-color: orange;
+}
+.button1.pink {
+    background-color: pink;
+}
+.button1.purple {
+    background-color: purple;
+}
+.button1.blue {
+    background-color: rgb(0, 150, 255);
+}
+.button1.white {
+    background-color: white;
+}
+
+.answer {
+    text-align: center;
+    color: white;
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid red;
+    margin-top: 55px;
+}
+
+.answer.yellow {
+    background-color: yellow;
+}
+
+.answer.red {
+    background-color: red;
+}
+
+
+
+
+.buttonReset {
+    text-align: center;
+    color: black;
+    background-color: rgb(0, 250, 0);
+    height: 90px;
+    width: 90px;
+    border-radius: 15%;
+    border: 2px solid black;
+    margin-top: -40px;
+}
+
+
+.buttonEnter {
+    text-align: center;
+    color: black;
+    background-color: rgb(0, 250, 0);
+    height: 60px;
+    width: 80px;
+    border-radius: 15%;
+    border: 2px solid yellow;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+
+
+
+#btn-red {
+    text-align: center;
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+#btn-yellow {
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+#btn-green {
+    text-align: center;
+    color: white;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#btn-orange {
+    text-align: center;
+    color: white;
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#btn-pink {
+    text-align: center;
+    color: white;
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#btn-purple {
+    text-align: center;
+    color: white;
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#btn-blue {
+    text-align: center;
+    color: white;
+    background-color:  rgb(0, 150, 255);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#btn-white {
+    text-align: center;
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#buttonWhite {
+    text-align: center;
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+
+
+
+#card{
+    text-align: center;
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+#drop-zone{
+    text-align: center;
+    color: black;
+    background-color: white;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    margin-top: 40px;
+}
+
+
+
+body{
+    text-align: center;
+}
